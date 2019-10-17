@@ -1,0 +1,85 @@
+* {
+    brder: 1px solid red;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    padding: 15px 0px;
+}
+header ul li {
+    padding: 0px 10px;
+}
+@media only screen and (max-width: 768px) {
+    .spotify-brand img {
+        width: 86px;
+    }
+    header {
+        padding: 0px;
+    }
+} 
+
+.separador {
+    border: 1px solid #fff;
+    width: 30px;
+    margin: 10px;
+}
+@media only screen and (min-width: 768px) {
+    .separador {
+        align-self: center;
+        height: 15px;
+        width: 0px;
+    }
+}
+
+
+/* section 1 */
+#help {
+    background-image: url(https://support.scdn.co/static/img/fw/search-desktop.png);
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    #help {
+       background-image: url(https://support.scdn.co/static/img/fw/search-mobile.png); 
+    }
+    
+}
+#help h1 {
+    font-size: 4em;
+}
+
+
+
+@media (max-width: 767.98px) {
+    #help h1 {
+        font-size: 2.5em;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #help h1 {
+        font-size: 3em;
+    }
+ }
+
+
+#help h2 {
+    font-size: 0.7em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1em;
+}
+
+
+/* links */
+.green-link a:hover{
+    color: #1db954 !important;
+    text-decoration: none;    
+}
+.green-link a {
+    color: white !important;
+}
+
+.white-link a {
+    text-decoration: none;
+    color: white;
+}

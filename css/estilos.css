@@ -1,0 +1,315 @@
+/*****
+layout
+******/
+body {
+	font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+.gradient-bg {
+	background: linear-gradient(rgb(240, 55, 165) -60%, rgb(250, 230, 45) 140%);
+}
+
+.hero-burst-img {
+	background-image: url(../img/hero-burst.svg);
+	background-repeat: no-repeat;
+	background-size: 1430px;
+	background-position: center -350px;
+	
+}
+
+body, html, .content {
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	/*background: linear-gradient(rgb(240, 55, 165) -60%, rgb(250, 230, 45) 140%), black;*/
+	background-repeat: no-repeat;
+}
+
+
+a {
+	color: rgba(255,255,255, 1);
+}
+
+a:hover {
+	color:#00E526;
+	text-decoration: none;
+}
+
+/*****
+Header
+******/
+
+nav {
+	background: rgba(0, 0, 0, .6);
+}
+
+.padding {
+	padding: 10px 10px;
+}
+
+.brandsize {
+	width: 130px;
+}
+
+/*link color*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255, 1);
+    font-weight: 600;
+    padding: 0px 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:#00E526;
+
+}
+
+.separador {
+	width: 1px;
+	background: white;
+	margin: 4px 15px;
+}
+
+
+/***
+main
+****/
+
+.content {
+	text-align: center;
+}
+
+
+.content h2 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	color: white;
+	font-size: 4em;
+}
+
+.content h3 {
+	font-size: 1.1em;
+	margin-bottom: 40px;
+}
+/******
+buttons
+*******/
+.btn-spotify-outline {
+	color: #1DB954;
+	border:3px solid #1db954;
+	background-color: transparent;
+	border-radius: 500px;
+	letter-spacing: 2px;
+	padding: 16px 48px 18px;
+	white-space: normal;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.btn-spotify-outline:hover{
+	background: #1db954;
+	color: white;
+}
+
+.btn-spotify {
+	background: #1db954;
+	color: white;
+	font-size: 14px;
+	padding: 10px 40px;
+	border-radius: 500px;
+	letter-spacing: 2px;
+	padding: 16px 48px 18px;
+	white-space: normal;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.btn-spotify:hover {
+	background: #12E25E;
+}
+
+.btn-spotify span {
+	white-space: nowrap;
+}
+
+
+
+
+
+/*****
+footer
+******/
+
+
+footer  {
+	background: black;
+	padding-top: 90px;
+}
+
+footer ul, footer a img {
+	padding-bottom: 60px;
+}
+.spotify-brand {
+	width: 140px;
+
+}
+
+.destaque {
+	color: rgba(255,255,255,.5);
+}
+
+
+
+footer li {
+	padding: 10px 0px;
+}
+
+footer a i {
+	font-size: 54px;
+}
+
+.midia a i {
+	padding-right: 10px;
+	font-size: 54px;
+}
+
+.midia {
+	margin-bottom: 20px;
+}
+
+
+/**
+end
+***/
+
+.footer-end {
+	padding-bottom: 30px;	
+}
+
+.footer-end * {
+	font-size: 12px;
+	color: rgba(255,255,255,0.5);
+}
+
+.footer-end a {
+	padding-left: 20px;
+}
+
+.footer-end div {
+	padding-left: 0px;
+}
+
+/** {
+	border:1px solid red;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/****
+media
+*****/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.hero-burst-img {
+	background-image: url(../img/hero-burst-mobile.svg);
+	background-size: 900px;
+	background-position: center +50px;
+}
+
+	.btn-spotify {
+		font-size: 12px;
+	}
+	.brandsize {
+		width: 80px;
+	}
+	.content h2 {
+		font-size: 2.5em;
+	}
+	.content h3 {
+		font-size: 1em;
+	}
+	nav {
+	background: rgba(0, 0, 0, 1);
+	}
+	.footer-end * {
+	font-size: 10px;
+	}
+	.spotify-brand {
+	width: 90px;
+	}
+	footer a {
+		font-size: 0.8em;
+	}
+	.destaque {
+		font-size: 0.9em;
+	}
+	.midia a i {
+		font-size: 30px;
+	}
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.hero-burst-img {
+	background-image: url(../img/hero-burst-mobile.svg);
+	background-size: 900px;
+	background-position: center +50px;
+}
+	.brandsize {
+		width: 80px;
+	}
+	.remove-padding {
+		padding:0px;
+	}
+	.content h2 {
+		font-size: 3em;
+	}
+	nav {
+	background: rgba(0, 0, 0, 1);
+	}
+	.spotify-brand {
+	width: 90px;
+	}
+	footer a {
+		font-size: 0.8em
+	}
+	.destaque {
+		font-size: 0.9em;
+	}
+	.midia a i {
+		font-size: 30px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.hero-burst-img {
+	background-image: url(../img/hero-burst-mobile.svg);
+	background-size: 900px;
+	background-position: center +50px;
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+
+}

@@ -1,0 +1,272 @@
+/***********
+************
+main
+************
+************/
+body {
+	background-color: #F2F2F2;
+}
+* {
+	/*border:1px solid red;*/
+}
+
+.premium{
+	margin: auto;
+	padding-top: 85px;
+}
+
+.background-premium {
+	background-color: #ff4632;
+	background-image: url(https://campaigns.scdn.co/images/bg-desktop-holiday.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+
+.background-premium p {
+	font-size: 12px;
+	letter-spacing: 0.25px;
+	font-weight: 500;
+	margin: 0 auto 32px
+}
+
+
+.background-premium p a {
+	text-decoration: underline;
+}
+
+.background-premium h2 {
+	font-size: 90px;
+	font-weight: 700;
+}
+
+
+.background-premium h3 {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.rodapé2 {
+	width: 600px;
+	margin: 20px auto;
+  color: #c1c3c6;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.rodapé {
+	width: 600px;
+	padding-top: 150px;
+}
+
+/*button*/
+
+.btn-spotify-blue {
+	background-color: #1E3264;
+	font-size: 14px;
+	padding: 16px 48px 18px;
+	letter-spacing: 2px;
+	border-radius: 500px;
+	font-weight: 900;
+}
+
+.btn-spotify-blue:hover {
+	background-color: #2A4795;
+}
+
+
+/**/
+
+.why-premium h3, .why-premium h2 {
+	font-weight: 900;
+}
+
+.why-premium span {
+	font-size: 14px;
+	color: #545454;
+}
+
+
+
+/*content 3*/
+
+.content3 {
+}
+
+.content3 h2 {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+
+
+.assine {
+	background-color: #fff;
+	padding: 25px;
+	margin: 25px 20px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+.assine:hover {
+	
+	top: -10px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	
+}
+
+.assine h1 {
+	padding-bottom: 30px;
+}
+
+.assine .fon span {
+	font-size: 16px;
+	font-weight: 100 ;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.btn-100 {
+	width: 100%;
+}
+
+
+
+.list-features {
+	border-bottom: 1px solid #D9DADC;
+	border-top: 1px solid #D9DADC;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	list-style-image: url(https://www.scdn.co/i/home/plan-checklist.svg);
+}
+
+.free > li:not(:first-child) {
+	color: #C1C3C6;
+	list-style: url(https://www.scdn.co/i/home/plan-checklist-free.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****
+*****
+media
+*****
+*****/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+	
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767.98px) {
+	.background-premium {
+		text-align: center;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 991.98px) {
+	
+	.background-premium h3 {
+	font-size: 20px;
+	}
+	
+
+
+} 
+	
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	
+}
+
+
+
+@media (max-width: 480px) {
+	.background-premium h2 {
+		font-size: 55px !important;
+	}
+	.background-premium {
+		padding-top: 130px;
+	}
+
+}
+
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.background-premium h2 {
+	font-size: 70px;
+	}
+	.background-premium p {
+		font-size: 9px;
+	}
+	.rodapé {
+		padding-top: 20px;
+	}
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.background-premium h2 {
+	font-size: 70px;
+	}
+	.rodapé {
+		padding-top: 49px;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.background-premium h2 {
+	font-size: 70px;
+	}
+	.rodapé {
+		padding-top: 35px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.rodapé {
+		padding-top: 50px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
